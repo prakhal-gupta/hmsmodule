@@ -86,11 +86,14 @@ WSGI_APPLICATION = 'HMSModule.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd2enn8uah2lehi',
+        'HOST': 'ec2-34-235-31-124.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER':'eigxcwifecumjr',
+        'PASSWORD':'b3ac003d5f2badcbb58fe00b06e72c4b809c198275f42158c5178538aa2e4ac8'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
